@@ -20,12 +20,11 @@ Resolving deltas: 100% (3/3), done.
 cd Kali-APKTool-Fix-Script-By-Ts-Hacking/
 
 ls
+
 Kali_apktoolfix_2.1.2.sh  LICENSE  README.md
 
-┌──(saheb㉿ts-hacking)-[~/Desktop]
-└─$ chmod +x Kali_apktoolfix_2.1.2.sh
+chmod +x Kali_apktoolfix_2.1.2.sh
 
-┌──(saheb㉿ts-hacking)-[~/Desktop]
-└─$ sudo bash Kali_apktoolfix_2.1.2.sh
+sudo bash Kali_apktoolfix_2.1.2.sh
 
 
