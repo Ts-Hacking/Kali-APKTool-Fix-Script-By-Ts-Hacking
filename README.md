@@ -3,14 +3,14 @@
 This bash script automates the process of KALI LINUX 2021.2 APKTool-fixing/installing a working 
 #             version of apktool. It also checks on system requirments to verify
 #             the script will have no issues working.
-#
+# 
+# 
 # This Script Test OS
 # Kali LINUX
 # ParrotSec OS
 
 1. Open The Terminnal And Type Command
-┌──(saheb㉿ts-hacking)-[~/Desktop]
-└─$ git clone https://github.com/Ts-Hacking/Kali-APKTool-Fix-Script-By-Ts-Hacking
+┌──(saheb㉿ts-hacking)-[~/Desktop]└─$ git clone https://github.com/Ts-Hacking/Kali-APKTool-Fix-Script-By-Ts-Hacking
 Cloning into 'Kali-APKTool-Fix-Script-By-Ts-Hacking'...
 remote: Enumerating objects: 11, done.
 remote: Counting objects: 100% (11/11), done.
