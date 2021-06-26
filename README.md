@@ -8,7 +8,7 @@ This bash script automates the process of KALI LINUX 2021.2 APKTool-fixing/insta
 # ParrotSec OS
 #              Open The Terminnal And Type Command
 
-1.git clone https://github.com/Ts-Hacking/Kali-APKTool-Fix-Script-By-Ts-Hacking
+1. git clone https://github.com/Ts-Hacking/Kali-APKTool-Fix-Script-By-Ts-Hacking.git
 
 Cloning into 'Kali-APKTool-Fix-Script-By-Ts-Hacking'...
 remote: Enumerating objects: 11, done.
