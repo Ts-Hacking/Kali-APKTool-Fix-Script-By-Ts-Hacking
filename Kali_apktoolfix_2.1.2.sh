@@ -42,12 +42,12 @@ echo '
         |_______|__| |___._|___  |_______|___._|___  |__.__|______|
                            |_____|             |_____|               APKTool-Fix Script By Ts-Hacking
 '
-echo -e "${YELLOW}    I'm Ethical hacker cyber security expert & security researcher,YouTuber  ${BLUE}2.1.2${RESTORE}\n"                                                                     
-echo -e "${YELLOW}  ''''''''''''''''''''''''''''''''''''For contact''''''''''''''''''''''''''''''''''''''''''' ${BLUE}2.1.2${RESTORE}\n"
+echo -e "${YELLOW}    I'm Ethical hacker cyber security expert & security researcher,YouTuber  ${BLUE}2.5.0.1${RESTORE}\n"                                                                     
+echo -e "${YELLOW}  ''''''''''''''''''''''''''''''''''''For contact''''''''''''''''''''''''''''''''''''''''''' ${BLUE}2.5.0.1${RESTORE}\n"
 
-echo -e "${YELLOW}      For Business Enquiries Mail Me At: sahebwebsolindia538@gmail.com       ${BLUE}2.1.2${RESTORE}\n"
-
-echo -e "${YELLOW}       Follo Me instagram Link-https://www.instagram.com/sahebofficial538/  ${BLUE}2.1.2${RESTORE}\n"
+echo -e "${YELLOW}      For Business Enquiries Mail Me At: sahebwebsolindia538@gmail.com       ${BLUE}2.5.0.1${RESTORE}\n"
+echo -e "${YELLOW} Subscribers MY YouTube Channel https://www.youtube.com/c/TsHacking  ${BLUE}2.5.0.1${RESTORE}\n"
+echo -e "${YELLOW}       Follo Me instagram Link-https://www.instagram.com/sahebofficial538/  ${BLUE}2.5.0.1${RESTORE}\n"
 
 echo -e "${YELLOW}         Apktool-Fix Version ${BLUE}Version: 2.5.0.1${RESTORE}\n"
 echo -e "${L_GREY}This script was developed to be used with the kali-linux distribution any use outside of this distribution may not work${RESTORE}\n"
