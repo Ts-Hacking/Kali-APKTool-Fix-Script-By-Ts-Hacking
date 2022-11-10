@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#Author: graylagx2
-#Name: apktoolfix
-#Version: 2.5.0.1
+#Author: Ts-Hacking
+#Name: Kali-apktoolfix
+#Version: 2.6.1.2
 #Description: This bash script automates the process of fixing/installing a working 
 #             version of apktool. It also checks on system requirments to verify
 #             the script will have no issues working.
@@ -38,18 +38,21 @@ echo -e "${BLUE}"
 echo '
          _______                  _____                     ______ 
         |     __.----.---.-.--.--|     |_.---.-.-----.--.--|__    |
-        |    |  |   _|  _  |  |  |       |  _  |  _  |_   _|    __|    Version: 2.5.0.1
+        |    |  |   _|  _  |  |  |       |  _  |  _  |_   _|    __|    Version: 2.6.1.2 Year 2022
         |_______|__| |___._|___  |_______|___._|___  |__.__|______|
-                           |_____|             |_____|               APKTool-Fix Script By Ts-Hacking
+                           |_____|             |_____|               Kali-APKTool-Fix Script By Ts-Hacking
 '
-echo -e "${YELLOW}    I'm Ethical hacker cyber security expert & security researcher,YouTuber  ${BLUE}2.5.0.1${RESTORE}\n"                                                                     
-echo -e "${YELLOW}  ''''''''''''''''''''''''''''''''''''For contact''''''''''''''''''''''''''''''''''''''''''' ${BLUE}2.5.0.1${RESTORE}\n"
+echo -e "${YELLOW}    I'm Ethical Hacker Cyber Security Expert & Security Researcher,YouTuber  ${BLUE}2.6.1.2${RESTORE}\n"                                                                     
+echo -e "${YELLOW}  ''''''''''''''''''''''''''''''''''''For Contact''''''''''''''''''''''''''''''''''''''''''' ${BLUE}2.6.1.2${RESTORE}\n"
 
-echo -e "${YELLOW}      For Business Enquiries Mail Me At: sahebwebsolindia538@gmail.com       ${BLUE}2.5.0.1${RESTORE}\n"
-echo -e "${YELLOW} Subscribers MY YouTube Channel https://www.youtube.com/c/TsHacking  ${BLUE}2.5.0.1${RESTORE}\n"
-echo -e "${YELLOW}       Follo Me instagram Link-https://www.instagram.com/sahebofficial538/  ${BLUE}2.5.0.1${RESTORE}\n"
+echo -e "${YELLOW}    ▶️ For Business Enquiries Mail Me At: sahebwebsolindia538@gmail.com       ${BLUE}2.6.1.2${RESTORE}\n"
+echo -e "${YELLOW}                             ▀▄▀▄▀▄ [ Follow Me on Ts-Hacking ] ▄▀▄▀▄▀ ${BLUE}2.6.1.2${RESTORE}\n"  
+echo -e "${YELLOW} ▶️ i hope you Like This My Video. don't forget to Like, Comment, Share and Subscribe to My YouTube Channel https://www.youtube.com/c/TsHacking  ${BLUE}2.6.1.2${RESTORE}\n"
+echo -e "${YELLOW}    ▶️ Follow Me instagram Link:- https://www.instagram.com/sahebofficial538/  ${BLUE}2.6.1.2${RESTORE}\n"
+echo -e "${YELLOW} ▶️ Follow Me FaceBook Page:- https://www.facebook.com/TsHacking538/ ${BLUE}2.6.1.2${RESTORE}\n"
+echo -e "${YELLOW} ▶️ Follow Me GitHub Repository:- https://github.com/Ts-Hacking ${BLUE}2.6.1.2${RESTORE}\n"
 
-echo -e "${YELLOW}         Apktool-Fix Version ${BLUE}Version: 2.5.0.1${RESTORE}\n"
+echo -e "${YELLOW}      Kali-Apktool-Fix Version ${BLUE}Version: 2.6.1.2${RESTORE}\n"
 echo -e "${L_GREY}This script was developed to be used with the kali-linux distribution any use outside of this distribution may not work${RESTORE}\n"
 sleep 2
                                                       
@@ -110,14 +113,18 @@ else
     done
 fi
 
-# Upgrade and install latest version of apktool
+# Upgrade and install latest version of apktool 2.6.1.jar
 APKTOOL_UPGRADE() {
+    sudo apt-get update && sudo apt -y full-upgrade &>/dev/null;
+    sudo apt-get install openjdk-11-jdk -y &>/dev/null;
+    sudo apt-get install openjdk-17-jdk -y &>/dev/null;
+    sudo apt-get install openjdk-19-jdk -y &>/dev/null;
     (wget -O /usr/bin/apktool https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool &>/dev/null;
-     wget -O /usr/bin/apktool.jar https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.5.0.jar &>/dev/null;
+     wget -O /usr/bin/apktool.jar https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.6.1.jar &>/dev/null;
      [[ -e /usr/bin/apktool ]] && [[ -e /usr/bin/apktool.jar ]] && chmod +x /usr/bin/apktool /usr/bin/apktool.jar) &
     echo
-    PROG_MESSAGE="${YELLOW}Installing Apktool 2.5.0${RESTORE}"
-    COMP_MESSAGE="${YELLOW}Installed Apktool 2.5.0${RESTORE}"
+    PROG_MESSAGE="${YELLOW}Installing Apktool 2.6.1${RESTORE}"
+    COMP_MESSAGE="${YELLOW}Installed Apktool 2.6.1${RESTORE}"
     spinLoader
     [[ -e /root/.local/share/apktool/framework/1.apk ]] && apktool empty-framework-dir --force &>/dev/null && echo -e "\n${YELLOW}  Emptying framework-dir" 
     APKTOOL_VERSION
